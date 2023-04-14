@@ -7,14 +7,12 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/",
-    "deploy": "node scripts/gh-pages-deploy.js"
+    "format": "prettier --write src/"
   },
   "dependencies": {
     "vue": "^3.2.47"
   },
   "devDependencies": {
-    "execa": "latest",
     "@rushstack/eslint-patch": "^1.2.0",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vue/eslint-config-prettier": "^7.1.0",
